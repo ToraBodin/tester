@@ -1,0 +1,138 @@
+// MAIN NAV
+.tweak-header-primary-nav-hover-style-button.tweak-header-primary-nav-button-style-outline .Header-nav--primary .Header-nav-item{
+  background-color: #FFFFFF;
+  border:none;
+  //height: 40px;
+  color:#361A02;
+}
+.tweak-header-primary-nav-hover-style-button.tweak-header-primary-nav-button-style-outline .Header-nav--primary .Header-nav-item:hover{
+  background-color: #DE9823;
+  border:none;
+  color:#FFFFFF;
+}
+////CONTENT
+.Index-page-content{
+  padding: 20px 0px 0px 0px;
+  border-top: 5px solid #76280D;
+}
+
+////TOP IMAGE
+#introbanner .Index-page-content, #introbanner .image-block{
+  padding: 0px;
+}
+
+////ABOUT
+#ommantelpiece {
+  //background-color:#361A02;
+  background-color: white;
+}
+#ommantelpiece h1, #ommantelpiece p {
+  padding: 0px 60px 0px 60px;
+  color: black;
+ //color:white;
+}
+
+////PRODUCTIONS
+#produktioner .Index-page-content, #produktioner .summary-block, #produktioner .sqs-layout:not(.sqs-editing) > .sqs-row:first-child > [class*="sqs-col"]:first-child > .sqs-block:last-child{
+  padding: 0px;
+}
+#produktioner .summary-item {
+  color: rgba(0, 0, 0, 0);
+}
+#produktioner a.summary-title-link:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0,0,0,0.5);
+}
+#produktioner a.summary-title-link:active {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0,0,0,0.8);
+}
+#produktioner .summary-content {
+  background-color: solid black; 
+  
+}
+#produktioner .summary-title{
+  margin:0px;
+  
+}
+#produktioner .summary-title-link {
+  width: 100%;
+  height: 100%;
+  font-size: 0.8em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+
+}
+
+#produktioner .summary-thumbnail-container {
+  margin:0;
+}
+////Nyheter
+#nyanyheter .Index-page-content {
+  padding: 2% 1%;
+}
+
+///FOOTER
+footer{
+  border-top: 5px solid #76280D;
+}
+//FILM
+section.Intro .Intro-content{
+  padding: 20px 10px;
+  border-top: 5px solid #76280D;
+  
+}
+section.Main-content {
+  border-top: 5px solid #76280D;
+  margin:0px;
+  padding: 20px 0px 0px 0px;
+}
+article.category-film.BlogList-item{
+  position: relative;
+  margin:auto;
+  display:table;
+}
+.tweak-blog-list-style-grid [data-columns="3"] .BlogList-item {
+  margin-right: -1px;
+}
+article.category-film a.BlogList-item-title{
+  display:table-cell;
+  color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:0px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+article.category-film a:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0,0,0,0.5);
+}
+article.category-film a:active {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0,0,0,0.8);
+}
+//UPPDRAG
+
+//KONTAKT
+
+
+//NYHETER
+article.category-nyheter{
+  padding-left:0.5%;
+}
+div.BlogList-item-excerpt {
+  visibility: collapse;
+}
